@@ -1,14 +1,26 @@
 section{
-    padding: 2% 0%;
+    padding: 5% 0%;
     background: @backgroundColor;
 
     .aboutMeContent{
         display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
         margin: 0% auto;
-        width: 75%;
+        width: 65%;
+        border: 3px outset black;
+
+        .bio{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column wrap;
+            padding: 5%;
+
+            .contactIcons{
+                display: flex;
+                justify-content: space-between;
+                width: 33%;
+            }
+        }
     }
 }
 
