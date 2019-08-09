@@ -547,6 +547,7 @@ section .aboutMeContent .bio {
 }
 section .aboutMeContent .bio p {
   font-style: italic;
+  text-align: center;
 }
 section .aboutMeContent .bio .contactIcons {
   margin-top: 10%;
