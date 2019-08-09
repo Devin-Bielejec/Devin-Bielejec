@@ -1,8 +1,7 @@
 html, body{
     font-size: 62.5%;
     height: 100%;
-    margin: 1% auto;
-    width: 80%;
+    margin: 0 auto;
     background: @backgroundColor;
 }
 
@@ -11,19 +10,29 @@ nav{
 
 }
 
-section{
-    font-size: 3rem;
-    height: 100%;
-    background: yellow;
-}
+// section{
+//     font-size: 3rem;
+//     height: 100%;
+//     background: yellow;
+// }
 
 header{
     /* Sizing */
     width: 100vw;
     height: 100vh;
+    font-size: 3rem;
 
     /* FlexBox */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* Text Style */
+    text-align: center;
+
+    background-image: url("../images/intro.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
