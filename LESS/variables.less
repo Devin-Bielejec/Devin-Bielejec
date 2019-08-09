@@ -1,1 +1,21 @@
 @backgroundColor: yellow;
+
+
+
+/* 
+defining sizes for page using http://spencermortensen.com/articles/typographic-scale
+
+fi = f0 * r ** (i/n)
+
+i - index
+n - number of different types of sizes
+r = 2
+n = 5
+*/
+
+@fontSize1: 4rem;
+@fontSize2: @fontSize1 * pow(2,1/5);
+@fontSize3: @fontSize1 * pow(2,2/5);
+@fontSize4: @fontSize1 * pow(2,3/5);
+@fontSize5: @fontSize1 * pow(2,4/5);
+@fontSize6: @fontSize1 * pow(2,5/5);

@@ -431,6 +431,16 @@ template {
 [hidden] {
   display: none;
 }
+/* 
+defining sizes for page using http://spencermortensen.com/articles/typographic-scale
+
+fi = f0 * r ** (i/n)
+
+i - index
+n - number of different types of sizes
+r = 2
+n = 5
+*/
 html,
 body {
   font-size: 62.5%;
@@ -441,11 +451,38 @@ body {
 nav {
   font-size: 5rem;
 }
+section {
+  height: 100%;
+  background: yellow;
+}
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 6.96440451rem;
+}
+h3 {
+  font-size: 6.06286627rem;
+}
+h4 {
+  font-size: 5.27803164rem;
+}
+h5 {
+  font-size: 4.59479342rem;
+}
+h6 {
+  font-size: 4rem;
+}
+button {
+  font-size: 4rem;
+}
+p {
+  font-size: 4rem;
+}
 header {
   /* Sizing */
   width: 100vw;
   height: 100vh;
-  font-size: 3rem;
   /* FlexBox */
   display: flex;
   align-items: center;
@@ -457,4 +494,14 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+header .intro {
+  color: white;
+}
+header .intro * {
+  margin: 5% 0;
+}
+header .intro button {
+  padding: 5%;
+  border-radius: 20px;
 }
