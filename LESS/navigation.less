@@ -1,0 +1,23 @@
+.navigationBackground{
+    width: 100%;
+    background: @navBackgroundColor;
+    z-index: 300;
+    position: fixed;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 2%;
+
+        a{
+            text-decoration: none;
+
+            &:link, &:visited, &:active{
+                text-decoration: none;
+                color: @navTextColor;
+            }
+
+            
+        }
+    }
+}

@@ -447,6 +447,7 @@ body {
   height: 100%;
   margin: 0 auto;
   background: yellow;
+  width: 100%;
 }
 nav {
   font-size: 5rem;
@@ -481,8 +482,8 @@ p {
 }
 header {
   /* Sizing */
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   /* FlexBox */
   display: flex;
   align-items: center;
@@ -504,4 +505,24 @@ header .intro * {
 header .intro button {
   padding: 5%;
   border-radius: 20px;
+}
+.navigationBackground {
+  width: 100%;
+  background: lightgrey;
+  z-index: 300;
+  position: fixed;
+}
+.navigationBackground nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+}
+.navigationBackground nav a {
+  text-decoration: none;
+}
+.navigationBackground nav a:link,
+.navigationBackground nav a:visited,
+.navigationBackground nav a:active {
+  text-decoration: none;
+  color: white;
 }
