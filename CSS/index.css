@@ -555,6 +555,16 @@ section .aboutMeContent .bio .contactIcons {
   justify-content: space-between;
   width: 33%;
 }
+section .portfolioContent {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0% auto;
+  width: 75%;
+}
+section .portfolioContent .project {
+  border: 2px solid black;
+  margin: 2% 0%;
+}
 .fa {
   padding: 3% 5% 3% 3%;
   border-radius: 100%;
