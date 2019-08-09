@@ -446,7 +446,7 @@ body {
   font-size: 62.5%;
   height: 100%;
   margin: 0 auto;
-  background: yellow;
+  background: #ebebeb;
   width: 100%;
 }
 nav {
@@ -503,12 +503,14 @@ header .intro * {
   margin: 5% 0;
 }
 header .intro button {
+  color: white;
   padding: 5%;
   border-radius: 20px;
+  background-color: #0000B5;
 }
 .navigationBackground {
   width: 100%;
-  background: lightgrey;
+  background: #ebebeb;
   z-index: 300;
   position: fixed;
 }
@@ -524,5 +526,17 @@ header .intro button {
 .navigationBackground nav a:visited,
 .navigationBackground nav a:active {
   text-decoration: none;
-  color: white;
+  color: #005031;
+}
+section {
+  padding: 2% 0%;
+  background: #ebebeb;
+}
+section .aboutMeContent {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0% auto;
+  width: 75%;
 }
