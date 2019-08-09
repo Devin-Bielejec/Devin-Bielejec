@@ -529,7 +529,7 @@ header .intro button {
   color: #005031;
 }
 section {
-  padding: 5% 0%;
+  padding: 10% 0% 5% 0%;
   background: #ebebeb;
 }
 section .aboutMeContent {
@@ -545,7 +545,11 @@ section .aboutMeContent .bio {
   flex-flow: column wrap;
   padding: 5%;
 }
+section .aboutMeContent .bio p {
+  font-style: italic;
+}
 section .aboutMeContent .bio .contactIcons {
+  margin-top: 10%;
   display: flex;
   justify-content: space-between;
   width: 33%;
