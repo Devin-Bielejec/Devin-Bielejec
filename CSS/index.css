@@ -447,3 +447,12 @@ section {
   height: 100%;
   background: yellow;
 }
+header {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  /* FlexBox */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
