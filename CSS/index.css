@@ -538,12 +538,21 @@ section .aboutMeContent {
   width: 65%;
   border: 3px outset black;
 }
+section .aboutMeContent .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .aboutMeContent .image img {
+  width: 100%;
+}
 section .aboutMeContent .bio {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
   padding: 5%;
+  text-align: center;
 }
 section .aboutMeContent .bio p {
   font-style: italic;
@@ -570,6 +579,9 @@ section .portfolioContent .project {
 }
 section .portfolioContent .project .image {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section .portfolioContent .project .image img {
   width: 100%;
