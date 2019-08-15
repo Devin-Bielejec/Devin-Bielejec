@@ -564,6 +564,22 @@ section .portfolioContent {
 section .portfolioContent .project {
   border: 2px solid black;
   margin: 2% 0%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+section .portfolioContent .project .image {
+  width: 50%;
+}
+section .portfolioContent .project .image img {
+  width: 100%;
+  padding: 1%;
+}
+section .portfolioContent .project .description {
+  width: 40%;
+}
+section .portfolioContent .project .description h3 {
+  padding-bottom: 3%;
 }
 .fa {
   padding: 3% 5% 3% 3%;
