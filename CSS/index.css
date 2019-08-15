@@ -538,13 +538,21 @@ section .aboutMeContent {
   width: 65%;
   border: 3px outset black;
 }
+@media (max-width: 1500px) {
+  section .aboutMeContent {
+    flex-flow: column wrap;
+  }
+}
 section .aboutMeContent .image {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
+  margin: 0 auto;
 }
 section .aboutMeContent .image img {
   width: 100%;
+  height: auto;
 }
 section .aboutMeContent .bio {
   display: flex;
@@ -592,6 +600,19 @@ section .portfolioContent .project .description {
 }
 section .portfolioContent .project .description h3 {
   padding-bottom: 3%;
+}
+@media (max-width: 1500px) {
+  section .portfolioContent .project {
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  section .portfolioContent .project .image {
+    width: 75%;
+  }
+  section .portfolioContent .project .description {
+    width: 75%;
+  }
 }
 footer {
   padding: 5%;

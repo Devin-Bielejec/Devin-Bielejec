@@ -8,13 +8,19 @@ section{
         width: 65%;
         border: 3px outset black;
 
+        @media @largeDesktop{
+            flex-flow: column wrap;
+        }
         .image{
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 50%;
+            margin: 0 auto;
         
             img{
                 width: 100%;
+                height: auto;
             }
         }
 
@@ -70,6 +76,20 @@ section{
 
                 h3{
                     padding-bottom: 3%;
+                }
+            }
+
+            @media @largeDesktop{
+                flex-flow: column wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                .image{
+                    width: 75%;
+                }
+
+                .description{
+                    width: 75%;
                 }
             }
         }
